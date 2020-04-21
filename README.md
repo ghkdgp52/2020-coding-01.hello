@@ -14,8 +14,11 @@
 ![vscode](./img/c02.jpg)
 
 
-### [vscode](http://code
+### [vscode](http://code.
 
+### 확장기능(Extension third-party plugin)을 설치한다.
+
+![vscode](./img/c09.jpg)
 
 
 # 프로젝트 시작
@@ -53,3 +56,51 @@
 4. 아래의 화면에서 **제일 긴 줄**을 복사한다.
 
 ![git](./img/c04.jpg)
+
+5. **각 컴퓨터에서 한번만 수행 할 작업**
+```bash
+git config --global user.name "boolduk"
+git config --global user.email "ghkdgo52@naver.com
+
+## 3 다시 vscode 작업
+1. ```ctrl+j``` 터미널 창을 연다.
+2. git을 초기화한다.
+```bash
+# git 초기화
+git init
+```
+
+3. github 연결
+```bash
+# 2-4에서 복사한 내용을 붙이고 실행한다.
+git remote add origin http://github.com/ghkdgp52/repo
+```
+
+4.git에 commit 및 push
+
+![vscode](./img/c03.jpg)
+
+- 위의 그림에서 3번 아이콘을 클릭하여 **빈 창에 설명을 쓰고** ```ctrl+enter```로 commit한다.
+- ```...```을 클릭하여 푸쉬를 선택하여 github에 업로드 한다.
+
+
+## 4. 다른사람의 git에서 가져오기
+1. 가져오고 싶은 github의 저장소로 이동한다.
+- 예: http://github.com/booldook/2020-kn-ph-01.hello
+2. 아래의 그림처럼 repository 주소를 복사한다.
+
+![git]((./img/c07.jpg)
+
+3. 적절한 폴더에서 아래의 그림처럼 bash창을 연다.
+
+![git]((./img/c08.jpg)
+
+4. bash창에서 아래의 코드를 입력한다.
+```bash
+git clone http://github.com/booldook/2020-kn-pb-01.hellp
+```
+
+5. vscode에서 클론된 폴더를 열고 원격저장소의 변경사항이 발생하면 3번아이콘으ㅢ ```...```을 클릭하여 pull명령을
+실행하여 최신사항을 가져온다.
+
+
